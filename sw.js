@@ -1,10 +1,14 @@
 const CACHE_NAME = 'v1.cache.awp';
 var urlToCache = [
     './', 
-    './css/style.css', 
-    './assets/img-1.png',
-    './assets/img-2.png',
-    './assets/img-3.png'
+    './style.css', 
+    './assets/Earthbound1.jpg',
+    './assets/la-saga-de-earthbound-conocida-.gif',
+    './assets/logo.png',
+    './assets/Mother1.jpg',
+    './assets/mother3.jpg',
+    './assets/onettnight.png',
+    './assets/Earthbound.tff',
 ]
 
 self.addEventListener('install', e => {
