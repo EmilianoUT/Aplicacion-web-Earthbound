@@ -1,6 +1,8 @@
 const addResourcesToCache = async (resources) => {
     const cache = await caches.open("v1");
-    await cache.addAll(resources);
+    await cache.addAll(resources)
+        .then((a) => { console.log(a) })
+        .catch((err) => { console.warn(err) });
 };
 
 const putInCache = async (request, response) => {
@@ -62,19 +64,17 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
         addResourcesToCache([
             '/',
-
-            'index.html',
-            'main.js',
-            'manifest.json',
-            'style.css',
-            'sw.js',
-            'assets/Earthbound1.jpg',
-            'assets/EB.gif',
-            'assets/logo.png',
-            'assets/Mother1.jpg',
-            'assets/mother3.jpg',
-            'assets/onettnight.png',
-            'assets/Earthbound.tff',
+            './index.html',
+            './main.js',
+            './style.css',
+            './sw.js',
+            './assets/Earthbound1.jpg',
+            './assets/EB.gif',
+            './assets/logo.png',
+            './assets/Mother1.jpg',
+            './assets/mother3.jpg',
+            './assets/onettnight1.png',
+            './assets/EarthBound.ttf',
         ])
     );
 });
