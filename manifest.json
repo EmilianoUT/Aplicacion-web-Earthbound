@@ -11,25 +11,29 @@
     "lang": "es-MX",
     "icons": [
         {
-            "src": "./assets/Earthbound1.jpg",
+            "src": "/assets/Earthbound1.jpg",
             "type": "image/jpg"
         },{
-            "src": "./assets/la-saga-de-earthbound-conocida-.gif",
+            "src": "/assets/la-saga-de-earthbound-conocida-.gif",
             "type": "image/gif"
         },{
-            "src": "./assets/logo.png",
+            "src": "/assets/logo.png",
             "type": "image/png"
         },{
-            "src": "./assets/Mother1.jpg",
+            "src": "/assets/Mother1.jpg",
             "type": "image/jpg"
         },{
-            "src": "./assets/mother3.jpg",
+            "src": "/assets/mother3.jpg",
             "type": "image/jpg"
         },{
-            "src": "./assets/onettnight.png",
+            "src": "/assets/onettnight.png",
             "type": "image/png"
         },{
-            "src": "./assets/Earthbound.tff",
+            "src": "https://starmen.net/mother2/images/game/starmandx.png",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/Earthbound.tff",
             "type": "font/ttf"
         }
     ]
